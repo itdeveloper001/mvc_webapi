@@ -10,5 +10,31 @@ namespace webapi_task.Controllers
     public class HotelManageSystemController : ApiController
     {
 
+        public bool AddCustomer()
+        {
+            return true;
+        }
+
+        public bool CheckRoom()
+        {
+            return true;
+        }
+
+        public bool OrderTable()
+        {
+            return true;
+        }
+
+        public bool OrderRoom()
+        {
+            return true;
+        }
+
+        public bool CheckInvoice()
+        {
+            return true;
+        }
+
+
     }
 }
